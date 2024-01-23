@@ -4,8 +4,64 @@ using ExemploExplorando.Models;
 
 
 
+//if ternário
+
+int numero = 20;
+bool ehPar = false;
+
+ehPar = numero % 2 == 0;
+Console.WriteLine($"o número {numero} é " + (ehPar ? "par": "ímpar"));
+
+// if (numero % 2==0)
+// {
+    
+//     Console.WriteLine($"O número {numero} é par");
+// }
+// else
+// {
+//     Console.WriteLine($"O número {numero} é impar");
+// }
 
 
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Anderson", "Oliveira");
+
+// (string nome, string sobrenome) = p1;
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, LinhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// if (sucesso){
+//     //Console.WriteLine("Quantidade linhas do arquivo: " + quantidadeLinhas);
+//     foreach(string linha in LinhasArquivo){
+//         Console.WriteLine(linha);
+//     }
+// }
+// else{
+//     Console.WriteLine("Não foi possível ler o arquivo");
+// }
+
+
+
+// (int, string, string, decimal)tupla = (1,"Anderson","Oliveira", 1.67M);
+// ValueTuple<int, string, string, decimal> outroExemploTupla = (1,"Anderson","Oliveira", 1.67M);
+// var outroExemploTuplaCreate = Tuple.Create(1,"Anderson","Oliveira", 1.67M);
+
+// Console.WriteLine($"Id:{tupla.Item1}");
+// Console.WriteLine($"Nome:{tupla.Item2}");
+// Console.WriteLine($"Sobrenome:{tupla.Item3}");
+// Console.WriteLine($"Altura:{tupla.Item4}");
 
 
 
