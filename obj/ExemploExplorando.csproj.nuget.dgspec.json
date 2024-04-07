@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\ExemploExplorando\\ExemploExplorando.csproj": {}
+    "F:\\Projetos\\ExemploExplorando\\ExemploExplorando.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\ExemploExplorando\\ExemploExplorando.csproj": {
+    "F:\\Projetos\\ExemploExplorando\\ExemploExplorando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectUniqueName": "F:\\Projetos\\ExemploExplorando\\ExemploExplorando.csproj",
         "projectName": "ExemploExplorando",
-        "projectPath": "D:\\Projetos\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectPath": "F:\\Projetos\\ExemploExplorando\\ExemploExplorando.csproj",
         "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\ExemploExplorando\\obj\\",
+        "outputPath": "F:\\Projetos\\ExemploExplorando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
